@@ -30,6 +30,7 @@ Conflicts:	fedora-release-identity
 Conflicts:	generic-release
 Conflicts:	generic-release-identity
 Requires: arfedora-release-common = %{version}-%{release}
+Requires: arfedora-logos
 
 %description
 Arfedora release files such as yum configs and various /etc/ files that
