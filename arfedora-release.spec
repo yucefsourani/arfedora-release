@@ -9,7 +9,7 @@
 Summary:	Arfedora release files
 Name:		arfedora-release
 Version:	%{dist_version}
-Release:	0.1
+Release:	0.2
 License:	MIT
 URL:            https://github.com/yucefsourani/arfedora-release
 Source0:	https://github.com/yucefsourani/arfedora-release/archive/main.zip
@@ -92,7 +92,7 @@ ID_LIKE=fedora
 VERSION_ID=%{dist_version}
 PRETTY_NAME="Arfedora %{dist_version} (%{release_name})"
 ANSI_COLOR="0;34"
-LOGO=arfedora-logo-icon
+LOGO=fedora-logo-icon
 CPE_NAME="cpe:/o:arfedora:arfedora:%{dist_version}"
 HOME_URL="https://github.com/yucefsourani/arfedora"
 SUPPORT_URL="https://github.com/yucefsourani/arfedora"
@@ -182,7 +182,10 @@ install -Dm0644 90-default-user.preset -t $RPM_BUILD_ROOT%{_prefix}/lib/systemd/
 
 
 %changelog
+* Sat May 6 2023 Yucef sourani <youssef.m.sourani@gmail.com> 38-0.2
+- release 0.2
+
 * Sat May 6 2023 Yucef sourani <youssef.m.sourani@gmail.com> 38-0.1
 - initial 
 - version 38
-- release 1
+- release 0.1
