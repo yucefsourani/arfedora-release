@@ -66,7 +66,7 @@ Arfedora release notes package.
 
 
 %prep
-%autosetup -c -n  arfedora-release-main
+%autosetup -n  arfedora-release-main
 
 %build
 
